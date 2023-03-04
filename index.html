@@ -4,50 +4,45 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="challenge" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css"/>
 </head>
 
 <body>
-	<div>
+	<div class="">
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
-
+			<a href="index.html">
+				<h1>BLOOMTECH BAR AND GRILL</h1>
+			</a>
+	
+			<div class="links">
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<a href="menu.html">Menu</a>
+				<a href="reservation">Reservations</a>
+				<a href="specials">Special Offers</a>
+				<a href="contact-container">Contact</a>
+	
 			</div>
 		</header>
-
+	</div>
 		<!-- gallery section -->
-		<section class="gallery">
-			<div>
-				<h2>OUR FOOD</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+		<section class="gallery-section">
+			<h2>OUR FOOD</h2>
+			<div class="gallery">
+				<img src="img/food-avocadotoast.jpg" alt="">
+				<img src="img/food-burger.jpg" alt="">
+				<img src="img/food-poutine.jpg" alt="">
+				<img src="img/food-ribs.jpg" alt="">
+				<img src="img/food-sandwich.jpg" alt="">
+				<img src="img/food-sausage.jpg" alt="">
+				<img src="img/food-steak.jpg" alt="">
+				<img src="img/food-tacos.jpg" alt="">
+				<img src="img/food-wings.jpg" alt="">
 			</div>
 		</section>
 
@@ -60,6 +55,7 @@
 				<h2>ABOUT US</h2>
 
 				<div id="cooks" class="pic">
+					<img src="img/staff-cooks.jpg" alt="">
 				</div>
 
 				<div class="text">
@@ -74,6 +70,7 @@
 				</div>
 
 				<div id="bartender" class="pic">
+					<img src="img/staff-bartender.jpg" alt="">
 				</div>
 			</div>
 		</section>
@@ -82,7 +79,7 @@
 		<div class="spacer"></div>
 
 		<!-- contact section -->
-		<section class="contact">
+		<section class="contacts">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
 
@@ -108,7 +105,7 @@
 					</div>
 
 					<div class="contacts">
-						<h3>Contacts</h3>
+						<h3 id="contacts">Contacts</h3>
 
 						<div>
 							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
@@ -126,12 +123,16 @@
 		<footer>
 			<!-- email signup -->
 			Join our mailing list!
-			Sign Up
+			<link >  Sign Up
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<div class="links">
+				<!-- nav -->
+				<a href="menu.html">Menu</a>
+				<a href="reservation">Reservations</a>
+				<a href="specials">Special Offers</a>
+				<a href="contact-container">Contact</a>
+	
+			</div>
 			<!-- copyright -->
 			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
 		</footer>

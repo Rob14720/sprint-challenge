@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    justify-content: center;
 }
 
 h2 {
@@ -91,6 +92,17 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+header, .links{
+position: relative;
+display: inline-flex;
+justify-content: space-between;
+}
+
+.gallery-section, .gallery{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 /* spacers */
@@ -126,7 +138,7 @@ header {
 
 .about-container {
     height: 100%;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -171,7 +183,7 @@ header {
 
 .info {
     width: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
 }
 

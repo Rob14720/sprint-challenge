@@ -95,6 +95,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+header, .links{
+    display: flex;
+    justify-content: space-between;
+    }
 
 /* spacer */
 .spacer {
